@@ -4,7 +4,7 @@ A responsive, interactive blog site dedicated to promoting wellness and a health
 
 ## 🔗 Live Demo
 
-[Visit Healthy Living Blog](healthy-living-blog254.netlify.app)  
+[Visit Healthy Living Blog](https://healthy-living-blog254.netlify.app/)  
 
 
 ---
