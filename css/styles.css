@@ -1,0 +1,155 @@
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 0 1rem;
+  }
+  
+  header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  nav h1 {
+    font-size: 1.8rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a.active,
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  #theme-toggle {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  main {
+    max-width: 900px;
+    margin: 0 auto 3rem auto;
+  }
+  
+  .tips h2,
+  .contact h2 {
+    margin-bottom: 1rem;
+    color: #2c3e50;
+  }
+  
+  .tips-list {
+    list-style: disc;
+    padding-left: 1.5rem;
+  }
+  
+  .tips-list li {
+    margin-bottom: 0.75rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-top: 1rem;
+  }
+  
+  form label {
+    font-weight: bold;
+  }
+  
+  form input,
+  form textarea,
+  form button {
+    font-family: inherit;
+    padding: 0.75rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  form button {
+    background-color: #2c3e50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #1a252f;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #2c3e50;
+    color: #fff;
+    margin-top: 3rem;
+  }
+  
+  /* Dark Theme Styles */
+.dark-theme {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dark-theme nav {
+  background-color: #1e1e1e;
+}
+
+.dark-theme nav ul li a {
+  color: #ffffff;
+}
+
+.dark-theme main, .dark-theme footer {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dark-theme input,
+.dark-theme textarea {
+  background-color: #1e1e1e;
+  color: #fff;
+  border: 1px solid #555;
+}
