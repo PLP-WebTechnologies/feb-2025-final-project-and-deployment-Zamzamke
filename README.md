@@ -1,25 +1,50 @@
-# Final Project and Deployment
+#  Healthy Living Blog
 
-## Objectives
-Build a fully functional web application.
-Apply HTML, CSS, and JavaScript concepts learned.
-Deploy the project using GitHub Pages, Netlify, or Vercel.
+A responsive, interactive blog site dedicated to promoting wellness and a healthy lifestyle. Built using **HTML**, **CSS**, and **JavaScript**, this project showcases helpful articles, daily tips, and a contact form. Users can also toggle between dark and light mode.
 
-## Instructions
-Choose one of the following project ideas:
-Blog Website: Implement a multi-page site with navigation.
-Ecommerce Website: Implement a multi-page site with navigation.
+## 🔗 Live Demo
 
->[!NOTE]
-> - Include at least:
-> - A responsive design.
-> - JavaScript interactivity.
-> - A deployment link.
+[Visit Healthy Living Blog](healthy-living-blog254.netlify.app)  
 
-## Tasks
 
-Create a well-structured HTML5 document.
-Use at least 5 different HTML elements.
-Ensure semantic correctness.
+---
 
-Good luck and happy coding! 🚀💻
+##  Features
+
+-  Responsive multi-page design
+- Light/Dark mode toggle
+- Articles and daily wellness tips
+- Contact form with HTML validation
+- Clean and modern UI
+- Semantic HTML5 structure
+
+---
+
+## Pages Included
+
+- **About (`index.html`)** – Welcome message and blog intro
+- **Articles (`articles.html`)** – Informative wellness articles
+- **Tips (`tips.html`)** – Helpful daily health and lifestyle tips
+- **Contact (`contact.html`)** – Contact form for user messages
+
+---
+
+##  Technologies Used
+
+- HTML5  
+- CSS3  
+- JavaScript (Vanilla)  
+- Google Fonts  
+- Netlify
+
+---
+
+
+---
+
+
+##  How to Use
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/PLP-WebTechnologies/feb-2025-final-project-and-deployment-Zamzamke.git
